@@ -6,7 +6,7 @@ import CommentDetail from './CommentDetail';
 const App = () => {
 return (
   <div className="ui container comments">
-    <CommentDetail />
+    <CommentDetail avatar = {faker.image.avatar()} />
  </div>
 
 
